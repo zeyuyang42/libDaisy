@@ -28,7 +28,7 @@ class SpiHandle::Impl
 
         bool IsValidJob() const
         {
-            return data_rx != nullptr && data_tx != nullptr;
+            return data_rx != nullptr || data_tx != nullptr;
         }
         void Invalidate() { data_rx = data_tx = nullptr; }
     };
