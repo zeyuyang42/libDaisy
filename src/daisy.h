@@ -57,6 +57,7 @@
 #include "dev/tlv493d.h"
 #include "dev/dotstar.h"
 #include "dev/neopixel.h"
+#include "dev/ws281x.h"
 #include "dev/neotrellis.h"
 #include "dev/icm20948.h"
 #include "ui/ButtonMonitor.h"

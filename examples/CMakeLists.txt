@@ -30,4 +30,5 @@ add_subdirectory(TIM_SingleCallback)
 
 # Folders
 add_subdirectory(uart)
+add_subdirectory(WS281x)
 add_subdirectory(SPI)
